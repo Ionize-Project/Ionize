@@ -48,7 +48,7 @@ namespace CryptoNote {
            Development Coins:   200,000 INZ
            ================================ */
 
-        const char GENESIS_COINBASE_TX_HEX[] = "017801ff0001808095e789c6040214e93e698387598adb7c12d3072b7c40f566a9692d4d8b999ed179751ac050af2101f5e08fd21cbcbedc4775458909ee01225ed6d6694c4cc7c1a2107178aefba3ed";
+        const char GENESIS_COINBASE_TX_HEX[] = "010501ff0001808095e789c6040298f2317799dbc655184026c4f453a28fae2c1274daf2ec6d1296f90c292f07fb21010742cc0c3e12f5ddccf9fcae2911c1c7b4f8b7ff4728ee67238c2190e040d12f";
         static_assert(sizeof(GENESIS_COINBASE_TX_HEX)/sizeof(*GENESIS_COINBASE_TX_HEX) != 1, "GENESIS_COINBASE_TX_HEX must not be empty.");
 
         const uint64_t GENESIS_BLOCK_TIMESTAMP                       = 1593266607;
