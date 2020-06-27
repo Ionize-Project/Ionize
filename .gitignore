@@ -1,0 +1,7 @@
+.dockerignore
+.gitattributes
+.github
+.git
+build
+.appveyor.yml
+Ionize.txt
