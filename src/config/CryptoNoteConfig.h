@@ -148,9 +148,9 @@ namespace CryptoNote {
     const uint64_t BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  100;
     const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
-    const int      P2P_DEFAULT_PORT                              =  10100;
-    const int      RPC_DEFAULT_PORT                              =  10101;
-    const int      SERVICE_DEFAULT_PORT                          =  10102;
+    const int      P2P_DEFAULT_PORT                              =  23230;
+    const int      RPC_DEFAULT_PORT                              =  23231;
+    const int      SERVICE_DEFAULT_PORT                          =  23232;
 
     const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
     const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
@@ -183,10 +183,11 @@ namespace CryptoNote {
     const std::string LICENSE_URL                                = "https://github.com/Ionize-Project/Ionize/blob/master/LICENSE";
     const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
     {
-        {  0xaa, 0xbb, 0xcc, 0x11, 0x22, 0x33, 0x5b, 0xcd, 0x10, 0x11, 0x23, 0x3d, 0x28, 0x5d, 0x54, 0x10  }
+        {  0xaa, 0xbb, 0xcc, 0x11, 0x45, 0x33, 0x5b, 0xcd, 0x10, 0x11, 0x23, 0x3d, 0x28, 0x5d, 0x54, 0x10  }
     };
 
     const char* const SEED_NODES[] = {
-        "178.238.226.229:10100"
+        "178.238.226.229:23230",
+        "178.238.226.229:24240"
     };
 }
